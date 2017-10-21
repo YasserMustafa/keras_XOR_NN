@@ -5,10 +5,6 @@ from keras.layers import Dense
 # Import numpy to define our arrays
 import numpy as np
 
-# Suppress scientific notation for numpy arrays when printing out results
-np.set_printoptions(suppress=True,
-                    formatter={'float_kind':'{:0.10f}'.format})
-
 # Inputs: This is out input numpy array, consisting or three column inputs and
 # 7 rows of training data
 predictors = np.array([[0, 0, 1],
